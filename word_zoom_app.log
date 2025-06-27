@@ -1,0 +1,929 @@
+2025-06-27 12:57:37,052 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:57:37,052 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:57:37,053 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:57:37,053 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:57:37,053 - INFO - <module>:101 - Starting FastHTML server...
+2025-06-27 12:57:37,523 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:57:37,523 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:57:37,523 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:57:37,524 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:57:37,524 - INFO - <module>:101 - Starting FastHTML server...
+2025-06-27 12:57:37,554 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:57:37,554 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:57:37,554 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:57:37,554 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:57:37,554 - INFO - <module>:101 - Starting FastHTML server...
+2025-06-27 12:57:37,649 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 12:58:06,253 - INFO - get:54 - Home route accessed - serving main page
+2025-06-27 12:58:06,253 - INFO - get:63 - Main page content generated successfully
+2025-06-27 12:58:34,556 - INFO - get:71 - Definition route accessed - word: 'mathematical model', context length: 0 characters
+2025-06-27 12:58:34,556 - INFO - create_model:43 - Creating Gemini model instance
+2025-06-27 12:58:34,556 - INFO - create_model:46 - Gemini model 'gemini-1.5-flash' created successfully
+2025-06-27 12:58:34,556 - INFO - get:83 - Sending prompt to Gemini API for word definition
+2025-06-27 12:58:35,150 - INFO - get:89 - Successfully received definition from Gemini API - response length: 170 characters
+2025-06-27 12:58:44,154 - INFO - get:71 - Definition route accessed - word: 'language', context length: 169 characters
+2025-06-27 12:58:44,154 - INFO - create_model:43 - Creating Gemini model instance
+2025-06-27 12:58:44,154 - INFO - create_model:46 - Gemini model 'gemini-1.5-flash' created successfully
+2025-06-27 12:58:44,154 - INFO - get:83 - Sending prompt to Gemini API for word definition
+2025-06-27 12:58:44,240 - ERROR - get:97 - Error in definition route: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 15
+}
+]
+2025-06-27 12:58:44,240 - ERROR - get:98 - Error occurred while processing word: 'language' with context length: 169
+2025-06-27 12:58:56,739 - INFO - get:71 - Definition route accessed - word: 'language', context length: 169 characters
+2025-06-27 12:58:56,740 - INFO - create_model:43 - Creating Gemini model instance
+2025-06-27 12:58:56,740 - INFO - create_model:46 - Gemini model 'gemini-1.5-flash' created successfully
+2025-06-27 12:58:56,740 - INFO - get:83 - Sending prompt to Gemini API for word definition
+2025-06-27 12:58:56,811 - ERROR - get:97 - Error in definition route: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 3
+}
+]
+2025-06-27 12:58:56,811 - ERROR - get:98 - Error occurred while processing word: 'language' with context length: 169
+2025-06-27 12:59:03,288 - INFO - get:71 - Definition route accessed - word: 'language', context length: 169 characters
+2025-06-27 12:59:03,289 - INFO - create_model:43 - Creating Gemini model instance
+2025-06-27 12:59:03,289 - INFO - create_model:46 - Gemini model 'gemini-1.5-flash' created successfully
+2025-06-27 12:59:03,289 - INFO - get:83 - Sending prompt to Gemini API for word definition
+2025-06-27 12:59:03,368 - ERROR - get:97 - Error in definition route: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-1.5-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+  quota_value: 50
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 56
+}
+]
+2025-06-27 12:59:03,368 - ERROR - get:98 - Error occurred while processing word: 'language' with context length: 169
+2025-06-27 12:59:29,156 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:29,522 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 12:59:33,077 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:33,602 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:33,903 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:59:33,903 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:59:33,903 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:59:33,904 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:59:33,904 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 12:59:33,952 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:59:33,952 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:59:33,952 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:59:33,952 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:59:33,952 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 12:59:34,023 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 12:59:36,585 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:37,153 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:47,417 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:54,180 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:54,761 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:59:54,761 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:59:54,761 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:59:54,762 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:59:54,762 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 12:59:54,794 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:59:54,794 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:59:54,794 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:59:54,795 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:59:54,795 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 12:59:54,875 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 12:59:58,990 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:59,514 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 12:59:59,771 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:59:59,771 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:59:59,771 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:59:59,772 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:59:59,772 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 12:59:59,804 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 12:59:59,804 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 12:59:59,804 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 12:59:59,804 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 12:59:59,804 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 12:59:59,880 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:00:04,144 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:04,631 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:04,930 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:04,930 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:04,930 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:04,930 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:04,931 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:04,962 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:04,962 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:04,962 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:04,962 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:04,962 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:05,048 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:00:06,637 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:07,154 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:07,297 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:07,297 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:07,297 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:07,298 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:07,298 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:07,332 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:07,332 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:07,332 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:07,332 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:07,332 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:07,515 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:00:09,777 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:10,326 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:10,486 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:10,486 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:10,486 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:10,486 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:10,486 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:10,518 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:10,518 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:10,518 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:10,518 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:10,518 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:10,689 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:00:12,618 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:13,113 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:00:13,345 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:13,345 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:13,345 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:13,346 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:13,346 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:13,377 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:00:13,377 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:00:13,378 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:00:13,378 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:00:13,378 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:00:13,479 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:01:09,032 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:01:09,498 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:01:09,768 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:01:09,768 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:01:09,768 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:01:09,769 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:01:09,769 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:01:09,809 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:01:09,809 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:01:09,809 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:01:09,809 - INFO - <module>:40 - FastHTML app initialized successfully
+2025-06-27 13:01:09,809 - INFO - <module>:102 - Starting FastHTML server...
+2025-06-27 13:01:09,910 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:01:10,852 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:01:11,385 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:01:11,541 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:01:11,541 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:01:11,541 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:01:11,541 - INFO - <module>:37 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:01:11,541 - INFO - <module>:44 - FastHTML app initialized successfully
+2025-06-27 13:01:11,542 - INFO - <module>:106 - Starting FastHTML server...
+2025-06-27 13:01:11,572 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:01:11,573 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:01:11,573 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:01:11,573 - INFO - <module>:37 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:01:11,573 - INFO - <module>:44 - FastHTML app initialized successfully
+2025-06-27 13:01:11,573 - INFO - <module>:106 - Starting FastHTML server...
+2025-06-27 13:01:11,750 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:01:34,440 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:01:34,979 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:01:35,223 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:01:35,223 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:01:35,223 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:01:35,223 - INFO - <module>:37 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:01:35,224 - INFO - <module>:44 - FastHTML app initialized successfully
+2025-06-27 13:01:35,224 - INFO - <module>:106 - Starting FastHTML server...
+2025-06-27 13:01:35,261 - INFO - <module>:20 - Environment variables loaded from .env file
+2025-06-27 13:01:35,261 - INFO - <module>:27 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:01:35,261 - INFO - <module>:33 - Gemini AI API configured successfully
+2025-06-27 13:01:35,261 - INFO - <module>:37 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:01:35,261 - INFO - <module>:44 - FastHTML app initialized successfully
+2025-06-27 13:01:35,261 - INFO - <module>:106 - Starting FastHTML server...
+2025-06-27 13:01:35,341 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:02:08,071 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:02:08,569 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:02:08,720 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:02:08,720 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:02:08,720 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:02:08,720 - INFO - <module>:41 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:02:08,721 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:02:08,753 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:02:08,926 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:02:29,518 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:02:29,879 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:02:31,913 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:02:32,469 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:02:32,602 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:02:32,602 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:02:32,602 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:02:32,602 - INFO - <module>:41 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:02:32,603 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:02:32,635 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:02:32,835 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:02:41,082 - INFO - get:67 - Home route accessed - serving main page
+2025-06-27 13:02:41,083 - INFO - get:76 - Main page content generated successfully
+2025-06-27 13:02:49,597 - INFO - get:84 - Definition route accessed - word: 'environment variables', context length: 0 characters
+2025-06-27 13:02:49,597 - INFO - create_model:55 - Creating Gemini model instance
+2025-06-27 13:02:49,597 - INFO - create_model:59 - Gemini model 'gemini-2.5-pro' created successfully
+2025-06-27 13:02:49,598 - INFO - get:96 - Sending prompt to Gemini API for word definition
+2025-06-27 13:02:49,788 - ERROR - get:110 - Error in definition route: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerDay-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.5-pro"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, retry_delay {
+  seconds: 10
+}
+]
+2025-06-27 13:02:49,789 - ERROR - get:111 - Error occurred while processing word: 'environment variables' with context length: 0
+2025-06-27 13:03:03,568 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:05:04,633 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:05:05,111 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:05:05,352 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:05:05,352 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:05:05,352 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:05:05,352 - INFO - <module>:41 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:05:05,353 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:05,385 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:05,477 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:05:16,078 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:05:16,079 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:05:16,079 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:05:16,079 - INFO - <module>:41 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:05:16,079 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:16,079 - INFO - <module>:115 - Starting FastHTML server...
+2025-06-27 13:05:16,539 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:05:16,539 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:05:16,539 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:05:16,539 - INFO - <module>:41 - Using Gemini model: gemini-2.5-pro
+2025-06-27 13:05:16,540 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:16,571 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:16,609 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:05:48,974 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:05:48,974 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:05:48,974 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:05:48,974 - INFO - <module>:41 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:05:48,974 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:48,975 - INFO - <module>:115 - Starting FastHTML server...
+2025-06-27 13:05:49,428 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:05:49,428 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:05:49,428 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:05:49,429 - INFO - <module>:41 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:05:49,429 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:49,457 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:05:49,509 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:05:59,843 - INFO - get:67 - Home route accessed - serving main page
+2025-06-27 13:05:59,844 - INFO - get:76 - Main page content generated successfully
+2025-06-27 13:06:11,251 - INFO - get:84 - Definition route accessed - word: 'unsupervised learning', context length: 0 characters
+2025-06-27 13:06:11,251 - INFO - create_model:55 - Creating Gemini model instance
+2025-06-27 13:06:11,251 - INFO - create_model:59 - Gemini model 'gemini-2.5-flash' created successfully
+2025-06-27 13:06:11,251 - INFO - get:96 - Sending prompt to Gemini API for word definition
+2025-06-27 13:06:13,874 - INFO - get:102 - Successfully received definition from Gemini API - response length: 180 characters
+2025-06-27 13:06:51,681 - INFO - get:84 - Definition route accessed - word: 'unlabeled data', context length: 180 characters
+2025-06-27 13:06:51,682 - INFO - create_model:55 - Creating Gemini model instance
+2025-06-27 13:06:51,682 - INFO - create_model:59 - Gemini model 'gemini-2.5-flash' created successfully
+2025-06-27 13:06:51,682 - INFO - get:96 - Sending prompt to Gemini API for word definition
+2025-06-27 13:06:56,881 - INFO - get:102 - Successfully received definition from Gemini API - response length: 69 characters
+2025-06-27 13:08:20,461 - INFO - get:67 - Home route accessed - serving main page
+2025-06-27 13:08:20,461 - INFO - get:76 - Main page content generated successfully
+2025-06-27 13:08:30,744 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:08:31,244 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:08:34,813 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:08:34,814 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:08:34,814 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:08:34,814 - INFO - <module>:41 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:08:34,817 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:08:34,817 - INFO - <module>:57 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:08:34,923 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:08:34,923 - INFO - <module>:57 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:08:34,999 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:11:53,478 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:11:53,843 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:11:56,244 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:11:56,727 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:11:56,875 - INFO - <module>:23 - Environment variables loaded from .env file
+2025-06-27 13:11:56,876 - INFO - <module>:30 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:11:56,876 - INFO - <module>:37 - Gemini AI API configured successfully
+2025-06-27 13:11:56,876 - INFO - <module>:41 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:11:56,876 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:11:56,876 - INFO - <module>:57 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:11:56,914 - INFO - <module>:52 - FastHTML app initialized successfully
+2025-06-27 13:11:56,914 - INFO - <module>:57 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:11:57,091 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:12:00,158 - INFO - get:94 - Home route accessed - serving main page
+2025-06-27 13:12:00,159 - INFO - get:103 - Main page content generated successfully
+2025-06-27 13:12:13,071 - INFO - get:111 - Definition route accessed - word: 'mathematical model', context length: 0 characters
+2025-06-27 13:12:13,071 - INFO - get:117 - Enhanced context length: 0 characters (includes 0 previous searches)
+2025-06-27 13:12:13,071 - INFO - get:125 - Sending prompt to Gemini API for word definition
+2025-06-27 13:12:18,739 - INFO - get:131 - Successfully received definition from Gemini API - response length: 179 characters
+2025-06-27 13:12:18,740 - INFO - add_to_search_history:79 - Added 'mathematical model' to search history. History size: 1
+2025-06-27 13:12:47,434 - INFO - get:94 - Home route accessed - serving main page
+2025-06-27 13:12:47,435 - INFO - get:103 - Main page content generated successfully
+2025-06-27 13:12:54,651 - INFO - get:111 - Definition route accessed - word: 'actions', context length: 0 characters
+2025-06-27 13:12:54,651 - INFO - get:117 - Enhanced context length: 249 characters (includes 1 previous searches)
+2025-06-27 13:12:54,651 - INFO - get:125 - Sending prompt to Gemini API for word definition
+2025-06-27 13:13:00,245 - INFO - get:131 - Successfully received definition from Gemini API - response length: 102 characters
+2025-06-27 13:13:00,246 - INFO - add_to_search_history:79 - Added 'actions' to search history. History size: 2
+2025-06-27 13:13:14,829 - INFO - get:111 - Definition route accessed - word: 'operations', context length: 102 characters
+2025-06-27 13:13:14,829 - INFO - get:117 - Enhanced context length: 465 characters (includes 2 previous searches)
+2025-06-27 13:13:14,829 - INFO - get:125 - Sending prompt to Gemini API for word definition
+2025-06-27 13:13:23,647 - INFO - get:131 - Successfully received definition from Gemini API - response length: 69 characters
+2025-06-27 13:13:23,648 - INFO - add_to_search_history:79 - Added 'operations' to search history. History size: 3
+2025-06-27 13:14:53,764 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:14:54,129 - INFO - _log_changes:308 - 6 changes detected
+2025-06-27 13:14:54,605 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:15:07,494 - INFO - get:94 - Home route accessed - serving main page
+2025-06-27 13:15:07,495 - INFO - get:103 - Main page content generated successfully
+2025-06-27 13:21:50,083 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:21:50,083 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:21:50,083 - INFO - <module>:32 - Gemini AI API configured successfully
+2025-06-27 13:21:50,083 - INFO - <module>:36 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:21:50,084 - INFO - <module>:43 - FastHTML app initialized successfully
+2025-06-27 13:21:50,084 - INFO - <module>:48 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:21:50,084 - INFO - <module>:168 - Starting FastHTML server...
+2025-06-27 13:21:50,567 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:21:50,567 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:21:50,567 - INFO - <module>:32 - Gemini AI API configured successfully
+2025-06-27 13:21:50,567 - INFO - <module>:36 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:21:50,567 - INFO - <module>:43 - FastHTML app initialized successfully
+2025-06-27 13:21:50,567 - INFO - <module>:48 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:21:50,607 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:21:50,607 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:21:50,607 - INFO - <module>:32 - Gemini AI API configured successfully
+2025-06-27 13:21:50,607 - INFO - <module>:36 - Using Gemini model: gemini-2.5-flash
+2025-06-27 13:21:50,608 - INFO - <module>:43 - FastHTML app initialized successfully
+2025-06-27 13:21:50,608 - INFO - <module>:48 - Gemini model 'gemini-2.5-flash' created successfully at startup
+2025-06-27 13:21:50,664 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:24:17,122 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:24:17,648 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:24:17,845 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:24:17,845 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:24:17,845 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:17,846 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:17,846 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:24:17,846 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:24:17,846 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:24:17,846 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:24:17,878 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:24:17,878 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:24:17,878 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:17,878 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:17,878 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:24:17,878 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:24:17,878 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:24:17,878 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:24:18,013 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:24:24,962 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:24:25,531 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:24:25,845 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:24:25,845 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:24:25,845 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:25,845 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:25,845 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:24:25,845 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:24:25,846 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:24:25,846 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:24:25,881 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:24:25,881 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:24:25,881 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:25,881 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:24:25,881 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:24:25,881 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:24:25,881 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:24:25,881 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:24:25,951 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:24:31,109 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:24:31,471 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:24:36,032 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:24:36,033 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:24:54,774 - INFO - get:134 - Definition route accessed - word: 'Markov decision process', context length: 0 characters
+2025-06-27 13:24:54,774 - INFO - get:140 - Enhanced context length: 0 characters (includes 0 previous searches)
+2025-06-27 13:24:54,775 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:24:55,344 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.57s, total request took 0.57s
+2025-06-27 13:24:55,345 - INFO - get:154 - Response length: 361 characters
+2025-06-27 13:24:55,345 - INFO - add_to_search_history:74 - Added 'Markov decision process' to search history. History size: 1
+2025-06-27 13:25:17,682 - INFO - get:134 - Definition route accessed - word: 'framework', context length: 361 characters
+2025-06-27 13:25:17,682 - INFO - get:140 - Enhanced context length: 797 characters (includes 1 previous searches)
+2025-06-27 13:25:17,682 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:25:18,298 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.61s, total request took 0.62s
+2025-06-27 13:25:18,298 - INFO - get:154 - Response length: 171 characters
+2025-06-27 13:25:18,298 - INFO - add_to_search_history:74 - Added 'framework' to search history. History size: 2
+2025-06-27 13:25:33,666 - INFO - get:134 - Definition route accessed - word: 'environment', context length: 0 characters
+2025-06-27 13:25:33,666 - INFO - get:140 - Enhanced context length: 621 characters (includes 2 previous searches)
+2025-06-27 13:25:33,666 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:25:34,021 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.35s, total request took 0.36s
+2025-06-27 13:25:34,021 - INFO - get:154 - Response length: 262 characters
+2025-06-27 13:25:34,022 - INFO - add_to_search_history:74 - Added 'environment' to search history. History size: 3
+2025-06-27 13:26:32,871 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:26:33,354 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:26:33,585 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:26:33,585 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:26:33,585 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:26:33,585 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:26:33,585 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:26:33,585 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:26:33,585 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:26:33,585 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:26:33,618 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:26:33,618 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:26:33,618 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:26:33,618 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:26:33,618 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:26:33,618 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:26:33,618 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:26:33,618 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:26:33,715 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:27:03,196 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:28:38,650 - INFO - _log_changes:308 - 6 changes detected
+2025-06-27 13:28:40,243 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:28:40,770 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:28:41,059 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:28:41,060 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:28:41,060 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:28:41,060 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:28:41,060 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:28:41,060 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:28:41,060 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:28:41,060 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:28:41,094 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:28:41,094 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:28:41,094 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:28:41,094 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:28:41,094 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:28:41,094 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:28:41,094 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:28:41,094 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:28:41,189 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:28:56,312 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:28:56,313 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:29:13,904 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:29:13,905 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:29:32,356 - INFO - get:134 - Definition route accessed - word: 'Markov decision process', context length: 0 characters
+2025-06-27 13:29:32,357 - INFO - get:140 - Enhanced context length: 0 characters (includes 0 previous searches)
+2025-06-27 13:29:32,357 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:29:32,874 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.52s, total request took 0.52s
+2025-06-27 13:29:32,875 - INFO - get:154 - Response length: 385 characters
+2025-06-27 13:29:32,875 - INFO - add_to_search_history:74 - Added 'Markov decision process' to search history. History size: 1
+2025-06-27 13:29:32,890 - INFO - get:134 - Definition route accessed - word: 'Markov decision process', context length: 0 characters
+2025-06-27 13:29:32,890 - INFO - get:140 - Enhanced context length: 460 characters (includes 1 previous searches)
+2025-06-27 13:29:32,890 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:29:33,231 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.34s, total request took 0.34s
+2025-06-27 13:29:33,232 - INFO - get:154 - Response length: 247 characters
+2025-06-27 13:29:33,232 - INFO - add_to_search_history:74 - Added 'Markov decision process' to search history. History size: 2
+2025-06-27 13:29:38,505 - INFO - get:134 - Definition route accessed - word: 'sequential decision-making', context length: 247 characters
+2025-06-27 13:29:38,505 - INFO - get:140 - Enhanced context length: 982 characters (includes 2 previous searches)
+2025-06-27 13:29:38,505 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:29:38,904 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.40s, total request took 0.40s
+2025-06-27 13:29:38,905 - INFO - get:154 - Response length: 184 characters
+2025-06-27 13:29:38,905 - INFO - add_to_search_history:74 - Added 'sequential decision-making' to search history. History size: 3
+2025-06-27 13:29:58,395 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:29:58,395 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:29:58,395 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:29:58,395 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:29:58,395 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:29:58,395 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:29:58,396 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:29:58,396 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:29:58,396 - INFO - <module>:172 - Starting FastHTML server...
+2025-06-27 13:29:58,877 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:29:58,877 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:29:58,877 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:29:58,877 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:29:58,877 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:29:58,877 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:29:58,878 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:29:58,878 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:29:58,913 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:29:58,913 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:29:58,913 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:29:58,913 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:29:58,913 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:29:58,913 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:29:58,913 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:29:58,913 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:29:58,982 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:30:00,751 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:30:00,751 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:30:01,584 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:30:01,584 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:30:02,382 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:30:02,383 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:30:42,504 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:30:43,021 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:30:43,156 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:30:43,156 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:30:43,156 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:43,156 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:43,156 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:30:43,156 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:30:43,157 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:30:43,157 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:30:43,189 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:30:43,189 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:30:43,189 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:43,189 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:43,189 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:30:43,189 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:30:43,189 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:30:43,189 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:30:43,386 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:30:53,726 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:30:54,272 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:30:54,643 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:30:54,643 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:30:54,643 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:54,643 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:54,643 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:30:54,643 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:30:54,643 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:30:54,643 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:30:54,679 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:30:54,679 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:30:54,679 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:54,679 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:30:54,679 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:30:54,679 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:30:54,679 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:30:54,679 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:30:54,791 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:31:00,002 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:31:00,003 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:31:31,233 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:31:31,720 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:31:31,898 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:31:31,899 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:31:31,899 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:31,899 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:31,899 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:31:31,899 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:31:31,899 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:31:31,899 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:31:31,932 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:31:31,932 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:31:31,932 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:31,932 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:31,932 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:31:31,932 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:31:31,932 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:31:31,932 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:31:32,083 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:31:32,974 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:31:32,974 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:31:38,669 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:31:39,033 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:31:52,968 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:31:53,520 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:31:53,780 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:31:53,780 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:31:53,780 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:53,780 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:53,780 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:31:53,780 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:31:53,780 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:31:53,781 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:31:53,814 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:31:53,814 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:31:53,814 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:53,814 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:31:53,814 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:31:53,814 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:31:53,814 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:31:53,814 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:31:53,884 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:31:57,072 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:31:57,073 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:32:07,934 - INFO - get:134 - Definition route accessed - word: 'mathematical', context length: 1297 characters
+2025-06-27 13:32:07,934 - INFO - get:140 - Enhanced context length: 1297 characters (includes 0 previous searches)
+2025-06-27 13:32:07,934 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:32:08,533 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.60s, total request took 0.60s
+2025-06-27 13:32:08,533 - INFO - get:154 - Response length: 278 characters
+2025-06-27 13:32:08,534 - INFO - add_to_search_history:74 - Added 'mathematical' to search history. History size: 1
+2025-06-27 13:32:27,206 - INFO - get:134 - Definition route accessed - word: 'Markov decision process', context length: 0 characters
+2025-06-27 13:32:27,206 - INFO - get:140 - Enhanced context length: 342 characters (includes 1 previous searches)
+2025-06-27 13:32:27,206 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:32:27,556 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.35s, total request took 0.35s
+2025-06-27 13:32:27,556 - INFO - get:154 - Response length: 342 characters
+2025-06-27 13:32:27,556 - INFO - add_to_search_history:74 - Added 'Markov decision process' to search history. History size: 2
+2025-06-27 13:32:33,349 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:32:33,349 - INFO - get:125 - Main page content generated successfully
+2025-06-27 13:32:38,438 - INFO - get:134 - Definition route accessed - word: 'Markov decision process', context length: 0 characters
+2025-06-27 13:32:38,438 - INFO - get:140 - Enhanced context length: 712 characters (includes 2 previous searches)
+2025-06-27 13:32:38,438 - INFO - get:143 - Sending prompt to Gemini API for word definition
+2025-06-27 13:32:38,709 - INFO - get:153 - Successfully received definition from Gemini API - API call took 0.27s, total request took 0.27s
+2025-06-27 13:32:38,710 - INFO - get:154 - Response length: 173 characters
+2025-06-27 13:32:38,710 - INFO - add_to_search_history:74 - Added 'Markov decision process' to search history. History size: 3
+2025-06-27 13:33:53,974 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:33:54,534 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:33:54,694 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:33:54,695 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:33:54,695 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:33:54,695 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:33:54,695 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:33:54,695 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:33:54,695 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:33:54,695 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:33:54,729 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:33:54,729 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:33:54,729 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:33:54,729 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:33:54,729 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:33:54,729 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:33:54,729 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:33:54,729 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:33:54,895 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:34:15,289 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:34:39,064 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:34:39,429 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:35:01,305 - INFO - _log_changes:308 - 2 changes detected
+2025-06-27 13:35:01,781 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:35:01,925 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:35:01,925 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:35:01,925 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:35:01,925 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:35:01,925 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:35:01,925 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:35:01,926 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:35:01,926 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:35:01,965 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:35:01,965 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:35:01,965 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:35:01,965 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:35:01,965 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:35:01,965 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:35:01,965 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:35:01,965 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:35:02,144 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:35:04,002 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:35:04,003 - INFO - get:162 - Main page content generated successfully
+2025-06-27 13:35:14,759 - INFO - get:171 - Definition route accessed - word: 'decision', context length: 1293 characters
+2025-06-27 13:35:14,759 - INFO - get:177 - Enhanced context length: 1293 characters (includes 0 previous searches)
+2025-06-27 13:35:14,759 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:14,760 - INFO - get:171 - Definition route accessed - word: 'Markov decision process', context length: 59 characters
+2025-06-27 13:35:14,761 - INFO - get:177 - Enhanced context length: 59 characters (includes 0 previous searches)
+2025-06-27 13:35:14,761 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:15,267 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.51s, total request took 0.51s
+2025-06-27 13:35:15,268 - INFO - get:191 - Response length: 160 characters
+2025-06-27 13:35:15,269 - INFO - add_to_search_history:74 - Added 'decision' to search history. History size: 1
+2025-06-27 13:35:15,269 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.51s, total request took 0.51s
+2025-06-27 13:35:15,270 - INFO - get:191 - Response length: 252 characters
+2025-06-27 13:35:15,271 - INFO - add_to_search_history:74 - Added 'Markov decision process' to search history. History size: 2
+2025-06-27 13:35:22,973 - INFO - get:171 - Definition route accessed - word: 'Markov', context length: 59 characters
+2025-06-27 13:35:22,974 - INFO - get:177 - Enhanced context length: 559 characters (includes 2 previous searches)
+2025-06-27 13:35:22,974 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:23,350 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.38s, total request took 0.38s
+2025-06-27 13:35:23,350 - INFO - get:191 - Response length: 190 characters
+2025-06-27 13:35:23,351 - INFO - add_to_search_history:74 - Added 'Markov' to search history. History size: 3
+2025-06-27 13:35:34,467 - INFO - get:171 - Definition route accessed - word: 'exploitation', context length: 497 characters
+2025-06-27 13:35:34,467 - INFO - get:177 - Enhanced context length: 1198 characters (includes 3 previous searches)
+2025-06-27 13:35:34,467 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:34,824 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.36s, total request took 0.36s
+2025-06-27 13:35:34,825 - INFO - get:191 - Response length: 238 characters
+2025-06-27 13:35:34,825 - INFO - add_to_search_history:74 - Added 'exploitation' to search history. History size: 4
+2025-06-27 13:35:39,060 - INFO - get:171 - Definition route accessed - word: 'Markov', context length: 375 characters
+2025-06-27 13:35:39,061 - INFO - get:177 - Enhanced context length: 1331 characters (includes 4 previous searches)
+2025-06-27 13:35:39,061 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:39,378 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.32s, total request took 0.32s
+2025-06-27 13:35:39,379 - INFO - get:191 - Response length: 198 characters
+2025-06-27 13:35:39,379 - INFO - add_to_search_history:74 - Added 'Markov' to search history. History size: 5
+2025-06-27 13:35:43,930 - INFO - get:171 - Definition route accessed - word: 'infeasible.[3]', context length: 375 characters
+2025-06-27 13:35:43,931 - INFO - get:177 - Enhanced context length: 1540 characters (includes 5 previous searches)
+2025-06-27 13:35:43,931 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:44,347 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.42s, total request took 0.42s
+2025-06-27 13:35:44,348 - INFO - get:191 - Response length: 234 characters
+2025-06-27 13:35:44,348 - INFO - add_to_search_history:74 - Added 'infeasible.[3]' to search history. History size: 6
+2025-06-27 13:35:50,266 - INFO - get:171 - Definition route accessed - word: 'limitations', context length: 234 characters
+2025-06-27 13:35:50,266 - INFO - get:177 - Enhanced context length: 1479 characters (includes 6 previous searches)
+2025-06-27 13:35:50,266 - INFO - get:180 - Sending prompt to Gemini API for word definition
+2025-06-27 13:35:50,699 - INFO - get:190 - Successfully received definition from Gemini API - API call took 0.43s, total request took 0.43s
+2025-06-27 13:35:50,700 - INFO - get:191 - Response length: 209 characters
+2025-06-27 13:35:50,700 - INFO - add_to_search_history:74 - Added 'limitations' to search history. History size: 7
+2025-06-27 13:36:13,316 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:36:13,317 - INFO - get:162 - Main page content generated successfully
+2025-06-27 13:36:58,943 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:36:59,444 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:37:01,420 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:37:01,420 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:37:01,420 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:01,420 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:01,420 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:37:01,420 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:37:01,423 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:37:01,423 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:37:01,525 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:37:01,565 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:37:01,565 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:37:01,565 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:01,565 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:01,566 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:37:01,566 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:37:01,566 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:37:01,566 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:37:01,883 - INFO - _log_changes:308 - 3 changes detected
+2025-06-27 13:37:21,274 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:37:39,423 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:37:39,788 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:37:46,036 - INFO - _log_changes:308 - 2 changes detected
+2025-06-27 13:37:46,589 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:37:46,719 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:37:46,719 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:37:46,719 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:46,719 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:46,719 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:37:46,719 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:37:46,719 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:37:46,719 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:37:46,753 - INFO - <module>:21 - Environment variables loaded from .env file
+2025-06-27 13:37:46,753 - INFO - <module>:26 - Retrieved GOOGLE_API_KEY from environment variables
+2025-06-27 13:37:46,753 - INFO - <module>:30 - GEMINI_MODEL from env: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:46,753 - INFO - <module>:31 - Raw GEMINI_MODEL value: 'gemini-2.5-flash-lite-preview-06-17'
+2025-06-27 13:37:46,753 - INFO - <module>:38 - Gemini AI API configured successfully
+2025-06-27 13:37:46,753 - INFO - <module>:40 - Using Gemini model: gemini-2.5-flash-lite-preview-06-17
+2025-06-27 13:37:46,753 - INFO - <module>:47 - FastHTML app initialized successfully
+2025-06-27 13:37:46,753 - INFO - <module>:52 - Gemini model 'gemini-2.5-flash-lite-preview-06-17' created successfully at startup
+2025-06-27 13:37:46,948 - INFO - _log_changes:308 - 4 changes detected
+2025-06-27 13:37:48,303 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:37:48,303 - INFO - get:188 - Main page content generated successfully
+2025-06-27 13:37:53,029 - INFO - get:197 - Definition route accessed - word: 'unsupervised', context length: 1320 characters
+2025-06-27 13:37:53,029 - INFO - get:203 - Enhanced context length: 1320 characters (includes 0 previous searches)
+2025-06-27 13:37:53,029 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:37:53,579 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.55s, total request took 0.55s
+2025-06-27 13:37:53,579 - INFO - get:217 - Response length: 301 characters
+2025-06-27 13:37:53,580 - INFO - add_to_search_history:74 - Added 'unsupervised' to search history. History size: 1
+2025-06-27 13:38:01,533 - INFO - get:197 - Definition route accessed - word: 'patterns', context length: 1708 characters
+2025-06-27 13:38:01,533 - INFO - get:203 - Enhanced context length: 2073 characters (includes 1 previous searches)
+2025-06-27 13:38:01,534 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:01,860 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.33s, total request took 0.33s
+2025-06-27 13:38:01,861 - INFO - get:217 - Response length: 122 characters
+2025-06-27 13:38:01,861 - INFO - add_to_search_history:74 - Added 'patterns' to search history. History size: 2
+2025-06-27 13:38:07,658 - INFO - get:197 - Definition route accessed - word: 'leverage.', context length: 128 characters
+2025-06-27 13:38:07,659 - INFO - get:203 - Enhanced context length: 628 characters (includes 2 previous searches)
+2025-06-27 13:38:07,659 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:07,923 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.26s, total request took 0.26s
+2025-06-27 13:38:07,924 - INFO - get:217 - Response length: 126 characters
+2025-06-27 13:38:07,924 - INFO - add_to_search_history:74 - Added 'leverage.' to search history. History size: 3
+2025-06-27 13:38:11,802 - INFO - get:89 - Home route accessed - serving main page
+2025-06-27 13:38:11,803 - INFO - get:188 - Main page content generated successfully
+2025-06-27 13:38:17,772 - INFO - get:197 - Definition route accessed - word: 'actions', context length: 1315 characters
+2025-06-27 13:38:17,773 - INFO - get:203 - Enhanced context length: 1955 characters (includes 3 previous searches)
+2025-06-27 13:38:17,773 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:18,073 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.30s, total request took 0.30s
+2025-06-27 13:38:18,074 - INFO - get:217 - Response length: 159 characters
+2025-06-27 13:38:18,074 - INFO - add_to_search_history:74 - Added 'actions' to search history. History size: 4
+2025-06-27 13:38:34,734 - INFO - get:197 - Definition route accessed - word: 'labelled', context length: 1561 characters
+2025-06-27 13:38:34,734 - INFO - get:203 - Enhanced context length: 2372 characters (includes 4 previous searches)
+2025-06-27 13:38:34,735 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:35,053 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.32s, total request took 0.32s
+2025-06-27 13:38:35,054 - INFO - get:217 - Response length: 158 characters
+2025-06-27 13:38:35,054 - INFO - add_to_search_history:74 - Added 'labelled' to search history. History size: 5
+2025-06-27 13:38:40,971 - INFO - get:197 - Definition route accessed - word: 'labelled', context length: 1563 characters
+2025-06-27 13:38:40,971 - INFO - get:203 - Enhanced context length: 2545 characters (includes 5 previous searches)
+2025-06-27 13:38:40,971 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:41,396 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.42s, total request took 0.42s
+2025-06-27 13:38:41,396 - INFO - get:217 - Response length: 127 characters
+2025-06-27 13:38:41,396 - INFO - add_to_search_history:74 - Added 'labelled' to search history. History size: 6
+2025-06-27 13:38:50,510 - INFO - get:197 - Definition route accessed - word: 'learning', context length: 1777 characters
+2025-06-27 13:38:50,511 - INFO - get:203 - Enhanced context length: 2581 characters (includes 6 previous searches)
+2025-06-27 13:38:50,511 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:50,875 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.36s, total request took 0.36s
+2025-06-27 13:38:50,875 - INFO - get:217 - Response length: 245 characters
+2025-06-27 13:38:50,875 - INFO - add_to_search_history:74 - Added 'learning' to search history. History size: 7
+2025-06-27 13:38:57,358 - INFO - get:197 - Definition route accessed - word: 'learning', context length: 2109 characters
+2025-06-27 13:38:57,359 - INFO - get:203 - Enhanced context length: 3036 characters (includes 7 previous searches)
+2025-06-27 13:38:57,359 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:38:57,679 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.32s, total request took 0.32s
+2025-06-27 13:38:57,679 - INFO - get:217 - Response length: 227 characters
+2025-06-27 13:38:57,680 - INFO - add_to_search_history:74 - Added 'learning' to search history. History size: 8
+2025-06-27 13:39:08,181 - INFO - get:197 - Definition route accessed - word: 'intelligent', context length: 1784 characters
+2025-06-27 13:39:08,182 - INFO - get:203 - Enhanced context length: 2811 characters (includes 8 previous searches)
+2025-06-27 13:39:08,182 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:08,183 - INFO - get:197 - Definition route accessed - word: 'intelligent', context length: 11 characters
+2025-06-27 13:39:08,184 - INFO - get:203 - Enhanced context length: 1038 characters (includes 8 previous searches)
+2025-06-27 13:39:08,184 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:08,497 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.31s, total request took 0.32s
+2025-06-27 13:39:08,498 - INFO - get:217 - Response length: 145 characters
+2025-06-27 13:39:08,498 - INFO - add_to_search_history:74 - Added 'intelligent' to search history. History size: 9
+2025-06-27 13:39:08,515 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.33s, total request took 0.33s
+2025-06-27 13:39:08,515 - INFO - get:217 - Response length: 200 characters
+2025-06-27 13:39:08,515 - INFO - add_to_search_history:74 - Added 'intelligent' to search history. History size: 10
+2025-06-27 13:39:28,233 - INFO - get:197 - Definition route accessed - word: 'learning', context length: 1316 characters
+2025-06-27 13:39:28,233 - INFO - get:203 - Enhanced context length: 2378 characters (includes 10 previous searches)
+2025-06-27 13:39:28,233 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:28,599 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.37s, total request took 0.37s
+2025-06-27 13:39:28,600 - INFO - get:217 - Response length: 264 characters
+2025-06-27 13:39:28,600 - INFO - add_to_search_history:74 - Added 'learning' to search history. History size: 10
+2025-06-27 13:39:34,654 - INFO - get:197 - Definition route accessed - word: 'needing', context length: 1666 characters
+2025-06-27 13:39:34,654 - INFO - get:203 - Enhanced context length: 2865 characters (includes 10 previous searches)
+2025-06-27 13:39:34,654 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:35,053 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.40s, total request took 0.40s
+2025-06-27 13:39:35,053 - INFO - get:217 - Response length: 126 characters
+2025-06-27 13:39:35,053 - INFO - add_to_search_history:74 - Added 'needing' to search history. History size: 10
+2025-06-27 13:39:40,393 - INFO - get:197 - Definition route accessed - word: 'environment', context length: 1882 characters
+2025-06-27 13:39:40,394 - INFO - get:203 - Enhanced context length: 2961 characters (includes 10 previous searches)
+2025-06-27 13:39:40,394 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:40,787 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.39s, total request took 0.39s
+2025-06-27 13:39:40,787 - INFO - get:217 - Response length: 189 characters
+2025-06-27 13:39:40,788 - INFO - add_to_search_history:74 - Added 'environment' to search history. History size: 10
+2025-06-27 13:39:44,241 - INFO - get:197 - Definition route accessed - word: 'Markov', context length: 2156 characters
+2025-06-27 13:39:44,241 - INFO - get:203 - Enhanced context length: 3200 characters (includes 10 previous searches)
+2025-06-27 13:39:44,241 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:44,680 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.44s, total request took 0.44s
+2025-06-27 13:39:44,680 - INFO - get:217 - Response length: 183 characters
+2025-06-27 13:39:44,680 - INFO - add_to_search_history:74 - Added 'Markov' to search history. History size: 10
+2025-06-27 13:39:48,593 - INFO - get:197 - Definition route accessed - word: 'reinforcement', context length: 2431 characters
+2025-06-27 13:39:48,594 - INFO - get:203 - Enhanced context length: 3508 characters (includes 10 previous searches)
+2025-06-27 13:39:48,594 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:39:48,949 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.36s, total request took 0.36s
+2025-06-27 13:39:48,950 - INFO - get:217 - Response length: 246 characters
+2025-06-27 13:39:48,951 - INFO - add_to_search_history:74 - Added 'reinforcement' to search history. History size: 10
+2025-06-27 13:40:01,760 - INFO - get:197 - Definition route accessed - word: 'environment', context length: 1888 characters
+2025-06-27 13:40:01,761 - INFO - get:203 - Enhanced context length: 3013 characters (includes 10 previous searches)
+2025-06-27 13:40:01,761 - INFO - get:206 - Sending prompt to Gemini API for word definition
+2025-06-27 13:40:02,190 - INFO - get:216 - Successfully received definition from Gemini API - API call took 0.43s, total request took 0.43s
+2025-06-27 13:40:02,190 - INFO - get:217 - Response length: 184 characters
+2025-06-27 13:40:02,191 - INFO - add_to_search_history:74 - Added 'environment' to search history. History size: 10
+2025-06-27 13:40:39,778 - INFO - _log_changes:308 - 1 change detected
+2025-06-27 13:40:40,136 - INFO - _log_changes:308 - 5 changes detected
