@@ -927,3 +927,4 @@ violations {
 2025-06-27 13:40:02,191 - INFO - add_to_search_history:74 - Added 'environment' to search history. History size: 10
 2025-06-27 13:40:39,778 - INFO - _log_changes:308 - 1 change detected
 2025-06-27 13:40:40,136 - INFO - _log_changes:308 - 5 changes detected
+2025-06-27 13:40:57,847 - INFO - _log_changes:308 - 42 changes detected
